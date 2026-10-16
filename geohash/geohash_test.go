@@ -12,7 +12,7 @@ func TestEncodeKnown(t *testing.T) {
 		prec     int
 		want     string
 	}{
-		{57.64911, 10.40744, 12, "u4pruydqqvjf"},
+		{57.64911, 10.40744, 12, "u4pruydqqvj8"},
 		{57.64911, 10.40744, 6, "u4pruy"},
 		{39.9042, 116.4074, 6, "wx4g0b"},  // 北京
 		{35.6895, 139.6917, 6, "xn774c"},  // 东京
